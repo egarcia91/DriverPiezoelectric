@@ -1,4 +1,4 @@
-18628442431073074
+18636430521559360
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51498,6 +51498,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+HV7360
+HV7360GAG
+HV7360GA-G-2
+Integrated Circuit
+0
+22
+22
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -75424,6 +75431,13 @@ rotary encoder
 0
 5
 4
+SC810
+SON50P200X200X60-7N-D
+MLPD-UT6 2x2
+Integrated Circuit
+0
+7
+7
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -76831,6 +76845,13 @@ Logo WEEE
 0
 0
 0
+TS51223
+BGA20C40P4X5_190X230X58
+WCSP-20-+
+Integrated Circuit
+0
+20
+20
 TS51224-M000WCSR
 BGA25N40P5X5_230X230X57N
 
@@ -81276,6 +81297,13 @@ transformer flyback
 0
 10
 10
+UTR-1440K-TT-R
+UTR1440KTTR
+UTR-1440K-TT-R-2
+Loudspeaker or Buzzer
+0
+2
+2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -82046,3 +82074,10 @@ varistor SIOV
 0
 2
 2
+footprints
+MS583730BA01-50
+
+
+0
+4
+4
