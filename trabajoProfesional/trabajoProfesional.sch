@@ -20,6 +20,7 @@ F0 "Salida" 50
 F1 "salida.sch" 50
 F2 "SP1ONOFF" I L 7950 2000 50 
 F3 "SN1ONOFF" I L 7950 2250 50 
+F4 "Alimentacion" I L 7950 2500 50 
 $EndSheet
 $Comp
 L 2020-08-16_19-32-11:MS583730BA01-50 SensorPresion
