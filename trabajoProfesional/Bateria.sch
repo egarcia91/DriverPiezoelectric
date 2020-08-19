@@ -50,17 +50,6 @@ F 9 "SC810ULTRT" H 4550 4350 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L coil1
-U 1 1 5F3EE7F6
-P 1300 2400
-F 0 "coil1" H 1352 2446 50  0000 L CNN
-F 1 "L" H 1352 2355 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 2400 50  0001 C CNN
-F 3 "~" H 1300 2400 50  0001 C CNN
-	1    1300 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C Cs2
 U 1 1 5F3EF7B4
 P 1750 2200
@@ -138,8 +127,6 @@ F 3 "~" H 5550 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 2200 1300 2250
-Wire Wire Line
 	2700 2550 2700 1650
 Wire Wire Line
 	2700 1650 5000 1650
@@ -147,8 +134,6 @@ Wire Wire Line
 	5000 1650 5000 2800
 Wire Wire Line
 	5000 2800 4700 2800
-Wire Wire Line
-	1300 2550 1550 2550
 Wire Wire Line
 	1550 2950 1550 2550
 Connection ~ 1550 2550
@@ -460,8 +445,6 @@ Wire Wire Line
 Text GLabel 7300 5250 0    50   Input ~ 0
 +Bat
 Wire Wire Line
-	7300 5250 7300 5050
-Wire Wire Line
 	7300 5050 6150 5050
 Connection ~ 6150 5050
 $Comp
@@ -622,7 +605,72 @@ Wire Wire Line
 	3300 5050 3350 5050
 Connection ~ 3350 5050
 Wire Wire Line
-	1300 2200 1600 2200
-Wire Wire Line
 	1900 2200 2800 2200
+Wire Wire Line
+	7300 5050 7300 5550
+$Comp
+L power:GND #PWR0104
+U 1 1 5F3F986E
+P 7300 5850
+F 0 "#PWR0104" H 7300 5600 50  0001 C CNN
+F 1 "GND" H 7305 5677 50  0000 C CNN
+F 2 "" H 7300 5850 50  0001 C CNN
+F 3 "" H 7300 5850 50  0001 C CNN
+	1    7300 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5650 7300 5850
+$Comp
+L Connector:Conn_01x01_Male Coil1
+U 1 1 5F4171CB
+P 1050 2200
+F 0 "Coil1" H 1158 2381 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1158 2290 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1050 2200 50  0001 C CNN
+F 3 "~" H 1050 2200 50  0001 C CNN
+	1    1050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male Coil2
+U 1 1 5F417846
+P 1050 2550
+F 0 "Coil2" H 1158 2731 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1158 2640 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1050 2550 50  0001 C CNN
+F 3 "~" H 1050 2550 50  0001 C CNN
+	1    1050 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2200 1600 2200
+Wire Wire Line
+	1250 2550 1550 2550
+$Comp
+L Connector:Conn_01x01_Male BatPositivo1
+U 1 1 5F421506
+P 7800 5550
+F 0 "BatPositivo1" H 7772 5482 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 7772 5573 50  0000 R CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 7800 5550 50  0001 C CNN
+F 3 "~" H 7800 5550 50  0001 C CNN
+	1    7800 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male batGND1
+U 1 1 5F421C96
+P 6750 5650
+F 0 "batGND1" H 6858 5831 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6858 5740 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6750 5650 50  0001 C CNN
+F 3 "~" H 6750 5650 50  0001 C CNN
+	1    6750 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5550 7300 5550
+Wire Wire Line
+	7300 5650 6950 5650
 $EndSCHEMATC

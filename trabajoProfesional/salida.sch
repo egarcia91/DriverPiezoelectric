@@ -47,8 +47,6 @@ $EndComp
 Wire Wire Line
 	4000 2050 4500 2050
 Connection ~ 4000 2050
-Wire Wire Line
-	4000 1850 4000 2050
 Text GLabel 4000 1850 0    50   Input ~ 0
 10V
 Wire Wire Line
@@ -152,7 +150,7 @@ Wire Wire Line
 	6250 2650 6300 2650
 Connection ~ 6250 2650
 Wire Wire Line
-	6250 3250 6250 2650
+	6250 3250 6250 3200
 Text GLabel 6250 3250 2    50   Input ~ 0
 -HV
 Wire Wire Line
@@ -299,15 +297,13 @@ Wire Wire Line
 	4200 2550 4200 2450
 Wire Wire Line
 	4500 2550 4200 2550
-Wire Wire Line
-	4200 1550 3900 1550
 Connection ~ 4200 1550
 Wire Wire Line
 	4200 1950 4200 1550
 Wire Wire Line
 	4500 1950 4200 1950
 Wire Wire Line
-	4400 1550 4200 1550
+	4400 1550 4300 1550
 Wire Wire Line
 	4400 1650 4400 1550
 Wire Wire Line
@@ -315,14 +311,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5F3DE1A4
-P 3900 1550
+P 4300 1550
 AR Path="/5F3DE1A4" Ref="#PWR?"  Part="1" 
 AR Path="/5F3D0683/5F3DE1A4" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 3900 1300 50  0001 C CNN
-F 1 "GND" H 3905 1377 50  0000 C CNN
-F 2 "" H 3900 1550 50  0001 C CNN
-F 3 "" H 3900 1550 50  0001 C CNN
-	1    3900 1550
+F 0 "#PWR0102" H 4300 1300 50  0001 C CNN
+F 1 "GND" H 4305 1377 50  0000 C CNN
+F 2 "" H 4300 1550 50  0001 C CNN
+F 3 "" H 4300 1550 50  0001 C CNN
+	1    4300 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -369,4 +365,60 @@ F 3 "~" H 3650 2050 50  0001 C CNN
 	1    3650 2050
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	5950 3600 5950 3250
+Wire Wire Line
+	5950 3250 5850 3250
+Connection ~ 5850 3250
+Wire Wire Line
+	6250 3200 6050 3200
+Wire Wire Line
+	6050 3200 6050 3700
+Connection ~ 6250 3200
+Wire Wire Line
+	6250 3200 6250 2650
+$Comp
+L Connector:Conn_01x01_Male 10V1
+U 1 1 5F407A63
+P 3650 1450
+F 0 "10V1" H 3758 1631 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 3758 1540 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3650 1450 50  0001 C CNN
+F 3 "~" H 3650 1450 50  0001 C CNN
+	1    3650 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1450 3850 1450
+Wire Wire Line
+	4000 1450 4000 2050
+Connection ~ 4300 1550
+Wire Wire Line
+	4300 1550 4200 1550
+$Comp
+L Connector:Conn_01x01_Male HV+1
+U 1 1 5F42DBC3
+P 5350 3600
+F 0 "HV+1" H 5458 3781 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 5458 3690 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 5350 3600 50  0001 C CNN
+F 3 "~" H 5350 3600 50  0001 C CNN
+	1    5350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male HV-1
+U 1 1 5F42E43A
+P 6500 3700
+F 0 "HV-1" H 6472 3632 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6472 3723 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 6500 3700 50  0001 C CNN
+F 3 "~" H 6500 3700 50  0001 C CNN
+	1    6500 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 3600 5550 3600
+Wire Wire Line
+	6300 3700 6050 3700
 $EndSCHEMATC
