@@ -28,10 +28,10 @@ L UTR-1440K-TT-R:UTR-1440K-TT-R PiezoElectrico?
 U 1 1 5F3DE108
 P 8950 2100
 AR Path="/5F3DE108" Ref="PiezoElectrico?"  Part="1" 
-AR Path="/5F3D0683/5F3DE108" Ref="PiezoElectrico"  Part="1" 
-F 0 "PiezoElectrico" H 9578 2096 50  0000 L CNN
+AR Path="/5F3D0683/5F3DE108" Ref="PiezoElectrico1"  Part="1" 
+F 0 "PiezoElectrico1" H 9578 2096 50  0000 L CNN
 F 1 "UTR-1440K-TT-R" H 9578 2005 50  0000 L CNN
-F 2 "UTR1440KTTR" H 9600 2200 50  0001 L CNN
+F 2 "UTR-1440K-TT-R:UTR1440KTTR" H 9600 2200 50  0001 L CNN
 F 3 "http://www.puiaudio.com/pdf/UTR-1440K-TT-R.pdf" H 9600 2100 50  0001 L CNN
 F 4 "Speakers & Transducers ULTRASONIC TRNSMTTR /RECEIVER" H 9600 2000 50  0001 L CNN "Description"
 F 5 "9.3" H 9600 1900 50  0001 L CNN "Height"
@@ -317,8 +317,8 @@ L power:GND #PWR?
 U 1 1 5F3DE1A4
 P 3900 1550
 AR Path="/5F3DE1A4" Ref="#PWR?"  Part="1" 
-AR Path="/5F3D0683/5F3DE1A4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3900 1300 50  0001 C CNN
+AR Path="/5F3D0683/5F3DE1A4" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 3900 1300 50  0001 C CNN
 F 1 "GND" H 3905 1377 50  0000 C CNN
 F 2 "" H 3900 1550 50  0001 C CNN
 F 3 "" H 3900 1550 50  0001 C CNN
@@ -330,10 +330,10 @@ L HV7360GA-G:HV7360GA-G DriverPotencia?
 U 1 1 5F3DE1B0
 P 4500 1650
 AR Path="/5F3DE1B0" Ref="DriverPotencia?"  Part="1" 
-AR Path="/5F3D0683/5F3DE1B0" Ref="DriverPotencia"  Part="1" 
-F 0 "DriverPotencia" H 5050 1915 50  0000 C CNN
+AR Path="/5F3D0683/5F3DE1B0" Ref="DriverPotencia1"  Part="1" 
+F 0 "DriverPotencia1" H 5050 1915 50  0000 C CNN
 F 1 "HV7360GA-G" H 5050 1824 50  0000 C CNN
-F 2 "HV7360GAG" H 5450 1750 50  0001 L CNN
+F 2 "HV7360:HV7360GAG" H 5450 1750 50  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en571410" H 5450 1650 50  0001 L CNN
 F 4 "Power Management Specialized - PMIC 1-Ch +/-100V 2.5A 2/3-Lev AC Coupled Pulser" H 5450 1550 50  0001 L CNN "Description"
 F 5 "2" H 5450 1450 50  0001 L CNN "Height"
