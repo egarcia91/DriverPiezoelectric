@@ -31,7 +31,7 @@ AR Path="/5F3DE108" Ref="PiezoElectrico?"  Part="1"
 AR Path="/5F3D0683/5F3DE108" Ref="PiezoElectrico1"  Part="1" 
 F 0 "PiezoElectrico1" H 9578 2096 50  0000 L CNN
 F 1 "UTR-1440K-TT-R" H 9578 2005 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 2200 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 9600 2200 50  0001 L CNN
 F 3 "http://www.puiaudio.com/pdf/UTR-1440K-TT-R.pdf" H 9600 2100 50  0001 L CNN
 F 4 "Speakers & Transducers ULTRASONIC TRNSMTTR /RECEIVER" H 9600 2000 50  0001 L CNN "Description"
 F 5 "9.3" H 9600 1900 50  0001 L CNN "Height"
@@ -383,7 +383,7 @@ U 1 1 5F407A63
 P 3650 1450
 F 0 "10V1" H 3758 1631 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3758 1540 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3650 1450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3650 1450 50  0001 C CNN
 F 3 "~" H 3650 1450 50  0001 C CNN
 	1    3650 1450
 	1    0    0    -1  
@@ -401,7 +401,7 @@ U 1 1 5F42DBC3
 P 5350 3600
 F 0 "HV+1" H 5458 3781 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 5458 3690 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 5350 3600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 5350 3600 50  0001 C CNN
 F 3 "~" H 5350 3600 50  0001 C CNN
 	1    5350 3600
 	1    0    0    -1  
@@ -412,7 +412,7 @@ U 1 1 5F42E43A
 P 6500 3700
 F 0 "HV-1" H 6472 3632 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 6472 3723 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 6500 3700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 6500 3700 50  0001 C CNN
 F 3 "~" H 6500 3700 50  0001 C CNN
 	1    6500 3700
 	-1   0    0    1   
