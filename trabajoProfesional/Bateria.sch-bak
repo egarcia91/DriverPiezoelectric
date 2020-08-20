@@ -627,7 +627,7 @@ U 1 1 5F4171CB
 P 1050 2200
 F 0 "Coil1" H 1158 2381 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1158 2290 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1050 2200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 1050 2200 50  0001 C CNN
 F 3 "~" H 1050 2200 50  0001 C CNN
 	1    1050 2200
 	1    0    0    -1  
@@ -638,7 +638,7 @@ U 1 1 5F417846
 P 1050 2550
 F 0 "Coil2" H 1158 2731 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1158 2640 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1050 2550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 1050 2550 50  0001 C CNN
 F 3 "~" H 1050 2550 50  0001 C CNN
 	1    1050 2550
 	1    0    0    -1  
@@ -653,7 +653,7 @@ U 1 1 5F421506
 P 7800 5550
 F 0 "BatPositivo1" H 7772 5482 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 7772 5573 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 7800 5550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 7800 5550 50  0001 C CNN
 F 3 "~" H 7800 5550 50  0001 C CNN
 	1    7800 5550
 	-1   0    0    1   
@@ -664,7 +664,7 @@ U 1 1 5F421C96
 P 6750 5650
 F 0 "batGND1" H 6858 5831 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 6858 5740 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6750 5650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 6750 5650 50  0001 C CNN
 F 3 "~" H 6750 5650 50  0001 C CNN
 	1    6750 5650
 	1    0    0    -1  
