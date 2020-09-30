@@ -28,7 +28,7 @@ U 1 1 5F3E65FC
 P 4250 6300
 F 0 "SensorPresion1" H 5050 6687 60  0000 C CNN
 F 1 "MS583730BA01-50" H 5050 6581 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5050 6540 60  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x02_P1.00mm_Vertical_SMD" H 5050 6540 60  0001 C CNN
 F 3 "" H 4250 6300 60  0000 C CNN
 	1    4250 6300
 	1    0    0    -1  
@@ -176,7 +176,7 @@ U 1 1 5F3DB5D3
 P 4300 2550
 F 0 "U1" H 4850 2815 50  0000 C CNN
 F 1 "1501" H 4850 2724 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical" H 5250 2650 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical_SMD" H 5250 2650 50  0001 L CNN
 F 3 "https://learn.adafruit.com/introducing-trinket" H 5250 2550 50  0001 L CNN
 F 4 "ADAFRUIT - 1501 - TRINKET DEV BOARD, ATTINY85 MCU, 5V" H 5250 2450 50  0001 L CNN "Description"
 F 5 "" H 5250 2350 50  0001 L CNN "Height"
