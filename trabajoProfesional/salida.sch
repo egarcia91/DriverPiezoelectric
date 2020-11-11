@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:trabajoProfesional-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -24,7 +25,7 @@ Connection ~ 8250 2200
 Wire Wire Line
 	8950 2200 8250 2200
 $Comp
-L UTR-1440K-TT-R:UTR-1440K-TT-R PiezoElectrico?
+L trabajoProfesional-rescue:UTR-1440K-TT-R-UTR-1440K-TT-R PiezoElectrico?
 U 1 1 5F3DE108
 P 8950 2100
 AR Path="/5F3DE108" Ref="PiezoElectrico?"  Part="1" 
@@ -102,7 +103,7 @@ AR Path="/5F3DE12E" Ref="D?"  Part="1"
 AR Path="/5F3D0683/5F3DE12E" Ref="D1"  Part="1" 
 F 0 "D1" H 7550 2767 50  0000 C CNN
 F 1 "1.8" H 7550 2676 50  0000 C CNN
-F 2 "Diode_SMD:D_SC-80" H 7550 2550 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7550 2550 50  0001 C CNN
 F 3 "~" H 7550 2550 50  0001 C CNN
 	1    7550 2550
 	1    0    0    -1  
@@ -115,7 +116,7 @@ AR Path="/5F3DE134" Ref="D?"  Part="1"
 AR Path="/5F3D0683/5F3DE134" Ref="D2"  Part="1" 
 F 0 "D2" H 7250 2133 50  0000 C CNN
 F 1 "1.8" H 7250 2224 50  0000 C CNN
-F 2 "Diode_SMD:D_SC-80" H 7250 2350 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7250 2350 50  0001 C CNN
 F 3 "~" H 7250 2350 50  0001 C CNN
 	1    7250 2350
 	-1   0    0    1   
@@ -128,7 +129,7 @@ AR Path="/5F3DE13A" Ref="D?"  Part="1"
 AR Path="/5F3D0683/5F3DE13A" Ref="D4"  Part="1" 
 F 0 "D4" H 7300 1633 50  0000 C CNN
 F 1 "1.8" H 7300 1724 50  0000 C CNN
-F 2 "Diode_SMD:D_SC-80" H 7300 1850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7300 1850 50  0001 C CNN
 F 3 "~" H 7300 1850 50  0001 C CNN
 	1    7300 1850
 	-1   0    0    1   
@@ -141,7 +142,7 @@ AR Path="/5F3DE140" Ref="D?"  Part="1"
 AR Path="/5F3D0683/5F3DE140" Ref="D3"  Part="1" 
 F 0 "D3" H 7550 2267 50  0000 C CNN
 F 1 "1.8" H 7550 2176 50  0000 C CNN
-F 2 "Diode_SMD:D_SC-80" H 7550 2050 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7550 2050 50  0001 C CNN
 F 3 "~" H 7550 2050 50  0001 C CNN
 	1    7550 2050
 	1    0    0    -1  
@@ -322,7 +323,7 @@ F 3 "" H 4300 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HV7360GA-G:HV7360GA-G DriverPotencia?
+L trabajoProfesional-rescue:HV7360GA-G-HV7360GA-G DriverPotencia?
 U 1 1 5F3DE1B0
 P 4500 1650
 AR Path="/5F3DE1B0" Ref="DriverPotencia?"  Part="1" 

@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:trabajoProfesional-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,7 +24,7 @@ F3 "SN1ONOFF" I L 7950 2250 50
 F4 "Alimentacion" I L 7950 2500 50 
 $EndSheet
 $Comp
-L 2020-08-16_19-32-11:MS583730BA01-50 SensorPresion1
+L trabajoProfesional-rescue:MS583730BA01-50-2020-08-16_19-32-11 SensorPresion1
 U 1 1 5F3E65FC
 P 4250 6300
 F 0 "SensorPresion1" H 5050 6687 60  0000 C CNN
@@ -171,7 +172,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 1300 2350 1300
 $Comp
-L Trinket:1501 U1
+L trabajoProfesional-rescue:1501-Trinket U1
 U 1 1 5F3DB5D3
 P 4300 2550
 F 0 "U1" H 4850 2815 50  0000 C CNN

@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:trabajoProfesional-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TS51223-M000WCSR:TS51223-M000WCSR RecpetorPotenciaInalambrica1
+L trabajoProfesional-rescue:TS51223-M000WCSR-TS51223-M000WCSR RecpetorPotenciaInalambrica1
 U 1 1 5F3EC0E0
 P 3300 2200
 F 0 "RecpetorPotenciaInalambrica1" H 4000 2465 50  0000 C CNN
@@ -33,7 +34,7 @@ F 11 "https://www.mouser.co.uk/ProductDetail/Semtech/TS51223-M000WCSR?qs=65M4%2F
 	1    0    0    -1  
 $EndComp
 $Comp
-L SC810ULTRT:SC810ULTRT AdministracionBateria1
+L trabajoProfesional-rescue:SC810ULTRT-SC810ULTRT AdministracionBateria1
 U 1 1 5F3EDAD5
 P 3500 4950
 F 0 "AdministracionBateria1" H 4100 5215 50  0000 C CNN
@@ -55,7 +56,7 @@ U 1 1 5F3EF7B4
 P 1750 2200
 F 0 "Cs2" V 1498 2200 50  0000 C CNN
 F 1 "10n" V 1589 2200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 1788 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 2050 50  0001 C CNN
 F 3 "~" H 1750 2200 50  0001 C CNN
 	1    1750 2200
 	0    1    1    0   
@@ -66,7 +67,7 @@ U 1 1 5F3F01C7
 P 1550 3100
 F 0 "Cc1" H 1435 3054 50  0000 R CNN
 F 1 "1n" H 1435 3145 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 1588 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1588 2950 50  0001 C CNN
 F 3 "~" H 1550 3100 50  0001 C CNN
 	1    1550 3100
 	-1   0    0    1   
@@ -77,7 +78,7 @@ U 1 1 5F3F0D19
 P 2950 2400
 F 0 "Cc2" V 3202 2400 50  0000 C CNN
 F 1 "1n" V 3111 2400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 2988 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2988 2250 50  0001 C CNN
 F 3 "~" H 2950 2400 50  0001 C CNN
 	1    2950 2400
 	0    -1   -1   0   
@@ -380,7 +381,7 @@ L Device:R RIPRGM1
 U 1 1 5F427DAE
 P 5100 5200
 F 0 "RIPRGM1" V 4893 5200 50  0000 C CNN
-F 1 "R" V 4984 5200 50  0000 C CNN
+F 1 "10k" V 4984 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 5030 5200 50  0001 C CNN
 F 3 "~" H 5100 5200 50  0001 C CNN
 	1    5100 5200
@@ -548,7 +549,7 @@ L Device:R Rstatus1
 U 1 1 5F478013
 P 4050 4500
 F 0 "Rstatus1" V 3843 4500 50  0000 C CNN
-F 1 "R" V 3934 4500 50  0000 C CNN
+F 1 "10k" V 3934 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 3980 4500 50  0001 C CNN
 F 3 "~" H 4050 4500 50  0001 C CNN
 	1    4050 4500
