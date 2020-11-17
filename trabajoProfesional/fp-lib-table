@@ -4,4 +4,8 @@
   (lib (name SC810)(type KiCad)(uri D:/KiCAD/trabajoProfesional/SC810)(options "")(descr ""))
   (lib (name TS51223)(type KiCad)(uri D:/KiCAD/trabajoProfesional/TS51223)(options "")(descr ""))
   (lib (name UTR-1440K-TT-R)(type KiCad)(uri D:/KiCAD/trabajoProfesional/UTR-1440K-TT-R)(options "")(descr ""))
+  (lib (name Diodo1N4150W-e3-08)(type KiCad)(uri D:/KiCAD/trabajoProfesional/COMPONENTES/1N4150W-E3-08-pcb-part-libraries)(options "")(descr ""))
+  (lib (name BSS84)(type KiCad)(uri D:/KiCAD/trabajoProfesional/COMPONENTES/BSS84-pcb-part-libraries)(options "")(descr ""))
+  (lib (name DIO6605BFN8)(type KiCad)(uri "D:/KiCAD/trabajoProfesional/COMPONENTES/Regulador de voltaje DIO6605BFN8")(options "")(descr ""))
+  (lib (name TPS60402DBVR)(type KiCad)(uri D:/KiCAD/trabajoProfesional/COMPONENTES/TPS60402DBVR-pcb-part-libraries)(options "")(descr ""))
 )

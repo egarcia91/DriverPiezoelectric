@@ -6,4 +6,8 @@
   (lib (name UTR-1440K-TT-R)(type Legacy)(uri D:/KiCAD/trabajoProfesional/UTR-1440K-TT-R/UTR-1440K-TT-R.lib)(options "")(descr ""))
   (lib (name Trinket)(type Legacy)(uri D:/KiCAD/trabajoProfesional/TrinketM0/1501.lib)(options "")(descr ""))
   (lib (name trabajoProfesional-rescue)(type Legacy)(uri ${KIPRJMOD}/trabajoProfesional-rescue.lib)(options "")(descr ""))
+  (lib (name Diodo1N4150W-e3-08)(type Legacy)(uri D:/KiCAD/trabajoProfesional/COMPONENTES/1N4150W-E3-08-pcb-part-libraries/1N4150W-E3-08.lib)(options "")(descr ""))
+  (lib (name BSS84)(type Legacy)(uri D:/KiCAD/trabajoProfesional/COMPONENTES/BSS84-pcb-part-libraries/BSS84.lib)(options "")(descr ""))
+  (lib (name TPS60402DBVR)(type Legacy)(uri D:/KiCAD/trabajoProfesional/COMPONENTES/TPS60402DBVR-pcb-part-libraries/TPS60402DBVR.lib)(options "")(descr ""))
+  (lib (name DIO6605BFN8)(type Legacy)(uri "D:/KiCAD/trabajoProfesional/COMPONENTES/Regulador de voltaje DIO6605BFN8/DIO6605BFN8.lib")(options "")(descr ""))
 )

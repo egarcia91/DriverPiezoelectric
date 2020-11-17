@@ -1,11 +1,42 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x01_Male
+# BSS84_BSS84
 #
-DEF Connector:Conn_01x01_Male J 0 40 Y N 1 F N
+DEF BSS84_BSS84 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "BSS84_BSS84" 450 50 50 H V L CNN
+F2 "SOT95P240X120-3N" 450 -50 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/BSS84-D.PDF" 450 -150 50 H I L CNN
+F4 "P-Channel Enhancement Mode Field Effect Transistor" 450 -250 50 H I L CNN "Description"
+F5 "1.2" 450 -350 50 H I L CNN "Height"
+F6 "512-BSS84" 450 -450 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/BSS84?qs=FOlmdCx%252BAA0e83h5MpSc0g%3D%3D" 450 -550 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "BSS84" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+C 250 100 150 0 1 10 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 80 230 120 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x01_Male
+#
+DEF Connector_Conn_01x01_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x01_Male" 0 -100 50 H V C CNN
+F1 "Connector_Conn_01x01_Male" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -18,11 +49,11 @@ X Pin_1 1 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -36,33 +67,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D
+# Device_D_Schottky
 #
-DEF Device:D D 0 40 N N 1 F N
+DEF Device_D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:D_Schottky
-#
-DEF Device:D_Schottky D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device:D_Schottky" 0 -100 50 H V C CNN
+F1 "Device_D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -73,18 +82,18 @@ $FPLIST
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:L
+# Device_L
 #
-DEF Device:L L 0 40 N N 1 F N
+DEF Device_L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Device:L" 75 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -103,11 +112,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -120,11 +129,32 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# Diodo1N4150W-e3-08_1N4150W-E3-08
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF Diodo1N4150W-e3-08_1N4150W-E3-08 D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "Diodo1N4150W-e3-08_1N4150W-E3-08" 450 100 50 H V L CNN
+F2 "SOD3716X135N" 450 0 50 H I L CNN
+F3 "" 450 -100 50 H I L CNN
+F4 "Vishay 1N4150W-E3-08, SMT Small Signal Diode, 50V 200mA, 4ns, 2-Pin SOD-123" 450 -200 50 H I L CNN "Description"
+F5 "1.35" 450 -300 50 H I L CNN "Height"
+F6 "78-1N4150W-E3-08" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/1N4150W-E3-08?qs=vP9d3Jd3b8abHYnKidD6uA%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "1N4150W-E3-08" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -133,32 +163,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pspice:MPMOS
+# trabajoProfesional-rescue_1501-Trinket
 #
-DEF pspice:MPMOS M 0 0 Y Y 1 F N
-F0 "M" 300 50 50 H V L CNN
-F1 "pspice:MPMOS" 300 -50 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -50 100 -50 -100 N
-P 2 0 1 0 -25 -100 100 -100 N
-P 2 0 1 0 100 100 -25 100 N
-P 2 0 1 0 200 0 -25 0 N
-P 4 0 1 0 200 0 125 25 125 -25 200 0 F
-P 2 1 1 0 -25 -100 -25 100 N
-X D 1 100 -200 100 U 50 50 1 1 P
-X G 2 -200 0 150 R 50 50 1 1 I
-X S 3 100 200 100 D 50 50 1 1 P
-X B 4 200 200 200 D 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# trabajoProfesional-rescue:1501-Trinket
-#
-DEF trabajoProfesional-rescue:1501-Trinket U 0 30 Y Y 1 F N
+DEF trabajoProfesional-rescue_1501-Trinket U 0 30 Y Y 1 F N
 F0 "U" 950 300 50 H V L CNN
-F1 "trabajoProfesional-rescue:1501-Trinket" 950 200 50 H V L CNN
+F1 "trabajoProfesional-rescue_1501-Trinket" 950 200 50 H V L CNN
 F2 "1501" 950 100 50 H I L CNN
 F3 "https://learn.adafruit.com/introducing-trinket" 950 0 50 H I L CNN
 F4 "ADAFRUIT - 1501 - TRINKET DEV BOARD, ATTINY85 MCU, 5V" 950 -100 50 H I L CNN "Description"
@@ -183,11 +192,11 @@ X '0 9 1100 -100 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# trabajoProfesional-rescue:HV7360GA-G-HV7360GA-G
+# trabajoProfesional-rescue_HV7360GA-G-HV7360GA-G
 #
-DEF trabajoProfesional-rescue:HV7360GA-G-HV7360GA-G IC 0 30 Y Y 1 F N
+DEF trabajoProfesional-rescue_HV7360GA-G-HV7360GA-G IC 0 30 Y Y 1 F N
 F0 "IC" 950 300 50 H V L CNN
-F1 "trabajoProfesional-rescue:HV7360GA-G-HV7360GA-G" 950 200 50 H V L CNN
+F1 "trabajoProfesional-rescue_HV7360GA-G-HV7360GA-G" 950 200 50 H V L CNN
 F2 "HV7360GAG" 950 100 50 H I L CNN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en571410" 950 0 50 H I L CNN
 F4 "Power Management Specialized - PMIC 1-Ch +/-100V 2.5A 2/3-Lev AC Coupled Pulser" 950 -100 50 H I L CNN "Description"
@@ -223,11 +232,11 @@ X SN1 P9 1100 -1000 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# trabajoProfesional-rescue:MS583730BA01-50-2020-08-16_19-32-11
+# trabajoProfesional-rescue_MS583730BA01-50-2020-08-16_19-32-11
 #
-DEF trabajoProfesional-rescue:MS583730BA01-50-2020-08-16_19-32-11 U 0 10 Y Y 1 L N
+DEF trabajoProfesional-rescue_MS583730BA01-50-2020-08-16_19-32-11 U 0 10 Y Y 1 L N
 F0 "U" 800 400 60 H V C CNN
-F1 "trabajoProfesional-rescue:MS583730BA01-50-2020-08-16_19-32-11" 800 300 60 H V C CNN
+F1 "trabajoProfesional-rescue_MS583730BA01-50-2020-08-16_19-32-11" 800 300 60 H V C CNN
 F2 "QFN4_MS5637_TEC" 800 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -245,11 +254,11 @@ X GND 4 1600 0 300 L 59 59 1 1 I
 ENDDRAW
 ENDDEF
 #
-# trabajoProfesional-rescue:SC810ULTRT-SC810ULTRT
+# trabajoProfesional-rescue_SC810ULTRT-SC810ULTRT
 #
-DEF trabajoProfesional-rescue:SC810ULTRT-SC810ULTRT IC 0 30 Y Y 1 F N
+DEF trabajoProfesional-rescue_SC810ULTRT-SC810ULTRT IC 0 30 Y Y 1 F N
 F0 "IC" 1050 300 50 H V L CNN
-F1 "trabajoProfesional-rescue:SC810ULTRT-SC810ULTRT" 1050 200 50 H V L CNN
+F1 "trabajoProfesional-rescue_SC810ULTRT-SC810ULTRT" 1050 200 50 H V L CNN
 F2 "SON50P200X200X60-7N-D" 1050 100 50 H I L CNN
 F3 "https://www.arrow.com/en/products/sc810ultrt/semtech" 1050 0 50 H I L CNN
 F4 "Battery Management SNGL INPUT/MODE LI BATT CHRGR" 1050 -100 50 H I L CNN "Description"
@@ -270,11 +279,11 @@ X EP 7 600 -700 200 U 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# trabajoProfesional-rescue:TS51223-M000WCSR-TS51223-M000WCSR
+# trabajoProfesional-rescue_TS51223-M000WCSR-TS51223-M000WCSR
 #
-DEF trabajoProfesional-rescue:TS51223-M000WCSR-TS51223-M000WCSR IC 0 30 Y Y 1 F N
+DEF trabajoProfesional-rescue_TS51223-M000WCSR-TS51223-M000WCSR IC 0 30 Y Y 1 F N
 F0 "IC" 1250 300 50 H V L CNN
-F1 "trabajoProfesional-rescue:TS51223-M000WCSR-TS51223-M000WCSR" 1250 200 50 H V L CNN
+F1 "trabajoProfesional-rescue_TS51223-M000WCSR-TS51223-M000WCSR" 1250 200 50 H V L CNN
 F2 "BGA20C40P4X5_190X230X58" 1250 100 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/1/TS51223-M000WCSR.pdf" 1250 0 50 H I L CNN
 F4 "Wireless Charging ICs Wireless Port Rec. Ext Resistor Fbk" 1250 -100 50 H I L CNN "Description"
@@ -310,11 +319,11 @@ X MOD_EN E4 1400 -900 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# trabajoProfesional-rescue:UTR-1440K-TT-R-UTR-1440K-TT-R
+# trabajoProfesional-rescue_UTR-1440K-TT-R-UTR-1440K-TT-R
 #
-DEF trabajoProfesional-rescue:UTR-1440K-TT-R-UTR-1440K-TT-R LS 0 30 Y Y 1 F N
+DEF trabajoProfesional-rescue_UTR-1440K-TT-R-UTR-1440K-TT-R LS 0 30 Y Y 1 F N
 F0 "LS" 650 300 50 H V L CNN
-F1 "trabajoProfesional-rescue:UTR-1440K-TT-R-UTR-1440K-TT-R" 650 200 50 H V L CNN
+F1 "trabajoProfesional-rescue_UTR-1440K-TT-R-UTR-1440K-TT-R" 650 200 50 H V L CNN
 F2 "UTR1440KTTR" 650 100 50 H I L CNN
 F3 "http://www.puiaudio.com/pdf/UTR-1440K-TT-R.pdf" 650 0 50 H I L CNN
 F4 "Speakers & Transducers ULTRASONIC TRNSMTTR /RECEIVER" 650 -100 50 H I L CNN "Description"

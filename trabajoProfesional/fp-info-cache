@@ -1,4 +1,11 @@
-18636430521559360
+18642852790455301
+BSS84
+SOT95P240X120-3N
+SOT-23 3L
+MOSFET (P-Channel)
+0
+3
+3
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48747,6 +48754,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DIO6605BFN8
+SON50P300X200X80-9N-D
+DFN2*3-8
+Integrated Circuit
+0
+9
+9
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -50049,6 +50063,13 @@ Vishay KBU rectifier diode bridge
 0
 4
 4
+Diodo1N4150W-e3-08
+SOD3716X135N
+sod-123vishay
+Diode
+0
+2
+2
 Display
 AG12864E
 STN/FSTN LCD 128x64 dot https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
@@ -76845,6 +76866,13 @@ Logo WEEE
 0
 0
 0
+TPS60402DBVR
+SOT95P280X145-5N
+DBV--+_-
+Integrated Circuit
+0
+5
+5
 TS51223
 BGA20C40P4X5_190X230X58
 WCSP-20-+

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:trabajoProfesional-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -19,8 +18,6 @@ Wire Wire Line
 	8950 1200 8950 2100
 Wire Wire Line
 	8950 1200 6600 1200
-Wire Wire Line
-	8250 2200 8250 2050
 Connection ~ 8250 2200
 Wire Wire Line
 	8950 2200 8250 2200
@@ -63,90 +60,10 @@ Wire Wire Line
 Connection ~ 5850 1850
 Wire Wire Line
 	5600 1850 5850 1850
-Connection ~ 8250 2050
-Connection ~ 8250 2350
 Wire Wire Line
-	8250 2350 8250 2200
+	5600 2550 6800 2550
 Wire Wire Line
-	8250 2350 7400 2350
-Wire Wire Line
-	8250 2550 8250 2350
-Wire Wire Line
-	7700 2550 8250 2550
-Wire Wire Line
-	6900 2350 7100 2350
-Wire Wire Line
-	6900 2450 6900 2350
-Wire Wire Line
-	5600 2450 6900 2450
-Wire Wire Line
-	5600 2550 7400 2550
-Wire Wire Line
-	8250 2050 7700 2050
-Wire Wire Line
-	8250 1850 8250 2050
-Wire Wire Line
-	7450 1850 8250 1850
-Wire Wire Line
-	6950 1850 7150 1850
-Wire Wire Line
-	6950 1950 6950 1850
-Wire Wire Line
-	5600 1950 6950 1950
-Wire Wire Line
-	5600 2050 7400 2050
-$Comp
-L Device:D D?
-U 1 1 5F3DE12E
-P 7550 2550
-AR Path="/5F3DE12E" Ref="D?"  Part="1" 
-AR Path="/5F3D0683/5F3DE12E" Ref="D1"  Part="1" 
-F 0 "D1" H 7550 2767 50  0000 C CNN
-F 1 "1.8" H 7550 2676 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7550 2550 50  0001 C CNN
-F 3 "~" H 7550 2550 50  0001 C CNN
-	1    7550 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5F3DE134
-P 7250 2350
-AR Path="/5F3DE134" Ref="D?"  Part="1" 
-AR Path="/5F3D0683/5F3DE134" Ref="D2"  Part="1" 
-F 0 "D2" H 7250 2133 50  0000 C CNN
-F 1 "1.8" H 7250 2224 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7250 2350 50  0001 C CNN
-F 3 "~" H 7250 2350 50  0001 C CNN
-	1    7250 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5F3DE13A
-P 7300 1850
-AR Path="/5F3DE13A" Ref="D?"  Part="1" 
-AR Path="/5F3D0683/5F3DE13A" Ref="D4"  Part="1" 
-F 0 "D4" H 7300 1633 50  0000 C CNN
-F 1 "1.8" H 7300 1724 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7300 1850 50  0001 C CNN
-F 3 "~" H 7300 1850 50  0001 C CNN
-	1    7300 1850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5F3DE140
-P 7550 2050
-AR Path="/5F3DE140" Ref="D?"  Part="1" 
-AR Path="/5F3D0683/5F3DE140" Ref="D3"  Part="1" 
-F 0 "D3" H 7550 2267 50  0000 C CNN
-F 1 "1.8" H 7550 2176 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7550 2050 50  0001 C CNN
-F 3 "~" H 7550 2050 50  0001 C CNN
-	1    7550 2050
-	1    0    0    -1  
-$EndComp
+	5600 1950 6800 1950
 Wire Wire Line
 	6250 2650 6300 2650
 Connection ~ 6250 2650
@@ -234,7 +151,7 @@ AR Path="/5F3DE174" Ref="C?"  Part="1"
 AR Path="/5F3D0683/5F3DE174" Ref="C3"  Part="1" 
 F 0 "C3" V 4298 3000 50  0000 C CNN
 F 1 "4.7u" V 4389 3000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 4588 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4588 2850 50  0001 C CNN
 F 3 "~" H 4550 3000 50  0001 C CNN
 	1    4550 3000
 	0    1    1    0   
@@ -247,7 +164,7 @@ AR Path="/5F3DE180" Ref="C?"  Part="1"
 AR Path="/5F3D0683/5F3DE180" Ref="C4"  Part="1" 
 F 0 "C4" V 6198 2650 50  0000 C CNN
 F 1 "4.7" V 6289 2650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 6488 2500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 2500 50  0001 C CNN
 F 3 "~" H 6450 2650 50  0001 C CNN
 	1    6450 2650
 	0    1    1    0   
@@ -260,7 +177,7 @@ AR Path="/5F3DE186" Ref="C?"  Part="1"
 AR Path="/5F3D0683/5F3DE186" Ref="C5"  Part="1" 
 F 0 "C5" V 5948 2350 50  0000 C CNN
 F 1 "4.7u" V 6039 2350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 6238 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6238 2200 50  0001 C CNN
 F 3 "~" H 6200 2350 50  0001 C CNN
 	1    6200 2350
 	0    1    1    0   
@@ -273,7 +190,7 @@ AR Path="/5F3DE18C" Ref="C?"  Part="1"
 AR Path="/5F3D0683/5F3DE18C" Ref="C2"  Part="1" 
 F 0 "C2" V 3198 2350 50  0000 C CNN
 F 1 "4.7u" V 3289 2350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 3488 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3488 2200 50  0001 C CNN
 F 3 "~" H 3450 2350 50  0001 C CNN
 	1    3450 2350
 	0    1    1    0   
@@ -361,7 +278,7 @@ AR Path="/5F3DE17A" Ref="C?"  Part="1"
 AR Path="/5F3D0683/5F3DE17A" Ref="C1"  Part="1" 
 F 0 "C1" V 3398 2050 50  0000 C CNN
 F 1 "4.7u" V 3489 2050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 3688 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3688 1900 50  0001 C CNN
 F 3 "~" H 3650 2050 50  0001 C CNN
 	1    3650 2050
 	0    1    1    0   
@@ -422,4 +339,102 @@ Wire Wire Line
 	5950 3600 5550 3600
 Wire Wire Line
 	6300 3700 6050 3700
+$Comp
+L Diodo1N4150W-e3-08:1N4150W-E3-08 D1
+U 1 1 5FB3FE5F
+P 7250 2900
+F 0 "D1" H 7550 3167 50  0000 C CNN
+F 1 "1N4150W-E3-08" H 7550 3076 50  0000 C CNN
+F 2 "Diodo1N4150W-e3-08:SOD3716X135N" H 7700 2900 50  0001 L CNN
+F 3 "" H 7700 2800 50  0001 L CNN
+F 4 "Vishay 1N4150W-E3-08, SMT Small Signal Diode, 50V 200mA, 4ns, 2-Pin SOD-123" H 7700 2700 50  0001 L CNN "Description"
+F 5 "1.35" H 7700 2600 50  0001 L CNN "Height"
+F 6 "78-1N4150W-E3-08" H 7700 2500 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/1N4150W-E3-08?qs=vP9d3Jd3b8abHYnKidD6uA%3D%3D" H 7700 2400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 7700 2300 50  0001 L CNN "Manufacturer_Name"
+F 9 "1N4150W-E3-08" H 7700 2200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diodo1N4150W-e3-08:1N4150W-E3-08 D3
+U 1 1 5FB409B6
+P 7850 1650
+F 0 "D3" H 8150 1383 50  0000 C CNN
+F 1 "1N4150W-E3-08" H 8150 1474 50  0000 C CNN
+F 2 "Diodo1N4150W-e3-08:SOD3716X135N" H 8300 1650 50  0001 L CNN
+F 3 "" H 8300 1550 50  0001 L CNN
+F 4 "Vishay 1N4150W-E3-08, SMT Small Signal Diode, 50V 200mA, 4ns, 2-Pin SOD-123" H 8300 1450 50  0001 L CNN "Description"
+F 5 "1.35" H 8300 1350 50  0001 L CNN "Height"
+F 6 "78-1N4150W-E3-08" H 8300 1250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/1N4150W-E3-08?qs=vP9d3Jd3b8abHYnKidD6uA%3D%3D" H 8300 1150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 8300 1050 50  0001 L CNN "Manufacturer_Name"
+F 9 "1N4150W-E3-08" H 8300 950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7850 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diodo1N4150W-e3-08:1N4150W-E3-08 D2
+U 1 1 5FB40FC0
+P 7400 2050
+F 0 "D2" H 7700 2317 50  0000 C CNN
+F 1 "1N4150W-E3-08" H 7700 2226 50  0000 C CNN
+F 2 "Diodo1N4150W-e3-08:SOD3716X135N" H 7850 2050 50  0001 L CNN
+F 3 "" H 7850 1950 50  0001 L CNN
+F 4 "Vishay 1N4150W-E3-08, SMT Small Signal Diode, 50V 200mA, 4ns, 2-Pin SOD-123" H 7850 1850 50  0001 L CNN "Description"
+F 5 "1.35" H 7850 1750 50  0001 L CNN "Height"
+F 6 "78-1N4150W-E3-08" H 7850 1650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/1N4150W-E3-08?qs=vP9d3Jd3b8abHYnKidD6uA%3D%3D" H 7850 1550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 7850 1450 50  0001 L CNN "Manufacturer_Name"
+F 9 "1N4150W-E3-08" H 7850 1350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diodo1N4150W-e3-08:1N4150W-E3-08 D4
+U 1 1 5FB41538
+P 7850 2450
+F 0 "D4" H 8150 2183 50  0000 C CNN
+F 1 "1N4150W-E3-08" H 8150 2274 50  0000 C CNN
+F 2 "Diodo1N4150W-e3-08:SOD3716X135N" H 8300 2450 50  0001 L CNN
+F 3 "" H 8300 2350 50  0001 L CNN
+F 4 "Vishay 1N4150W-E3-08, SMT Small Signal Diode, 50V 200mA, 4ns, 2-Pin SOD-123" H 8300 2250 50  0001 L CNN "Description"
+F 5 "1.35" H 8300 2150 50  0001 L CNN "Height"
+F 6 "78-1N4150W-E3-08" H 8300 2050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/1N4150W-E3-08?qs=vP9d3Jd3b8abHYnKidD6uA%3D%3D" H 8300 1950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 8300 1850 50  0001 L CNN "Manufacturer_Name"
+F 9 "1N4150W-E3-08" H 8300 1750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7850 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 2900 8250 2900
+Wire Wire Line
+	7250 2900 6800 2900
+Wire Wire Line
+	6800 2900 6800 2550
+Wire Wire Line
+	8250 2200 8250 2450
+Wire Wire Line
+	7850 2450 8250 2450
+Connection ~ 8250 2450
+Wire Wire Line
+	8250 2450 8250 2900
+Wire Wire Line
+	5600 2450 7250 2450
+Wire Wire Line
+	7850 1650 8250 1650
+Wire Wire Line
+	7250 1650 6800 1650
+Wire Wire Line
+	6800 1650 6800 1950
+Wire Wire Line
+	5600 2050 7400 2050
+Wire Wire Line
+	8000 2050 8250 2050
+Wire Wire Line
+	8250 1650 8250 2050
+Connection ~ 8250 2050
+Wire Wire Line
+	8250 2050 8250 2200
 $EndSCHEMATC
