@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -129,12 +129,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0101
 U 1 1 5F3F217F
-P 3850 2650
-F 0 "#PWR0101" H 3850 2400 50  0001 C CNN
-F 1 "GND" V 3855 2522 50  0000 R CNN
-F 2 "" H 3850 2650 50  0001 C CNN
-F 3 "" H 3850 2650 50  0001 C CNN
-	1    3850 2650
+P 4300 2650
+F 0 "#PWR0101" H 4300 2400 50  0001 C CNN
+F 1 "GND" V 4305 2522 50  0000 R CNN
+F 2 "" H 4300 2650 50  0001 C CNN
+F 3 "" H 4300 2650 50  0001 C CNN
+	1    4300 2650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -200,8 +200,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 2950 5400 2950
 Wire Wire Line
-	3850 2650 4300 2650
-Wire Wire Line
 	3900 2750 4300 2750
 Wire Wire Line
 	4000 2850 4300 2850
@@ -224,4 +222,16 @@ Wire Wire Line
 Connection ~ 3400 1050
 Wire Wire Line
 	3400 1050 6550 1050
+$Sheet
+S 1550 4000 1000 750 
+U 5FFD3686
+F0 "CargadorBateria" 50
+F1 "CargadorBateria.sch" 50
+$EndSheet
+$Sheet
+S 8250 4150 2350 1500
+U 5FFD37EA
+F0 "Centralizador" 50
+F1 "Centralizador.sch" 50
+$EndSheet
 $EndSCHEMATC
