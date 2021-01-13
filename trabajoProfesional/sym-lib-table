@@ -10,4 +10,6 @@
   (lib (name BSS84)(type Legacy)(uri D:/KiCAD/trabajoProfesional/COMPONENTES/BSS84-pcb-part-libraries/BSS84.lib)(options "")(descr ""))
   (lib (name TPS60402DBVR)(type Legacy)(uri D:/KiCAD/trabajoProfesional/COMPONENTES/TPS60402DBVR-pcb-part-libraries/TPS60402DBVR.lib)(options "")(descr ""))
   (lib (name DIO6605BFN8)(type Legacy)(uri "D:/KiCAD/trabajoProfesional/COMPONENTES/Regulador de voltaje DIO6605BFN8/DIO6605BFN8.lib")(options "")(descr ""))
+  (lib (name HV7361GA-G)(type Legacy)(uri D:/KiCAD/trabajoProfesional/HV7361/HV7361GA-G.lib)(options "")(descr ""))
+  (lib (name TS51231-QFNR)(type Legacy)(uri D:/KiCAD/trabajoProfesional/TS51231/TS51231-QFNR.lib)(options "")(descr ""))
 )
