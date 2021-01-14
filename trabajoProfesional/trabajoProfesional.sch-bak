@@ -45,8 +45,6 @@ F 3 "~" H 5000 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5850 6300 5850 5700
-Wire Wire Line
 	5850 5700 5150 5700
 Wire Wire Line
 	4250 6300 4250 5700
@@ -234,4 +232,6 @@ U 5FFD37EA
 F0 "Centralizador" 50
 F1 "Centralizador.sch" 50
 $EndSheet
+Wire Wire Line
+	5850 6300 5850 5700
 $EndSCHEMATC
