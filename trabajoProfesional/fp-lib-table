@@ -10,4 +10,5 @@
   (lib (name TPS60402DBVR)(type KiCad)(uri D:/KiCAD/trabajoProfesional/COMPONENTES/TPS60402DBVR-pcb-part-libraries)(options "")(descr ""))
   (lib (name HV7361GA-G)(type Legacy)(uri D:/KiCAD/trabajoProfesional/HV7361/HV7361GA-G.mod)(options "")(descr ""))
   (lib (name TS51231-QFNR)(type Legacy)(uri D:/KiCAD/trabajoProfesional/TS51231/TS51231-QFNR.mod)(options "")(descr ""))
+  (lib (name QFN40P300X300X60-21N)(type Legacy)(uri D:/KiCAD/trabajoProfesional/TS80002/QFN40P300X300X60-21N.mod)(options "")(descr ""))
 )

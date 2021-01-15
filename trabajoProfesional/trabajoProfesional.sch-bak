@@ -45,7 +45,7 @@ F 3 "~" H 5000 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5850 5700 5150 5700
+	5850 5700 5600 5700
 Wire Wire Line
 	4250 6300 4250 5700
 Wire Wire Line
@@ -234,4 +234,18 @@ F1 "Centralizador.sch" 50
 $EndSheet
 Wire Wire Line
 	5850 6300 5850 5700
+$Comp
+L power:GND #PWR?
+U 1 1 5FFFF8CB
+P 5600 5700
+F 0 "#PWR?" H 5600 5450 50  0001 C CNN
+F 1 "GND" H 5605 5527 50  0000 C CNN
+F 2 "" H 5600 5700 50  0001 C CNN
+F 3 "" H 5600 5700 50  0001 C CNN
+	1    5600 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 5700
+Wire Wire Line
+	5600 5700 5150 5700
 $EndSCHEMATC
