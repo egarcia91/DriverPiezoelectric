@@ -1,4 +1,4 @@
-update=1/19/2021 7:04:22 PM
+update=3/2/2021 8:21:53 PM
 version=1
 last_client=kicad
 [general]
@@ -41,7 +41,8 @@ MinHoleToHole=2.5e-05
 TrackWidth1=0.25
 TrackWidth2=0.127
 TrackWidth3=0.254
-TrackWidth4=1
+TrackWidth4=0.5
+TrackWidth5=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.59
@@ -274,6 +275,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
+Name=PIstasAnchas
+Clearance=0.025
+TrackWidth=1
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/4]
 Name=Potencia
 Clearance=0.125
 TrackWidth=0.25
