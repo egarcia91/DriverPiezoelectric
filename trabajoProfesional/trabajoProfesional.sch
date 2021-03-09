@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -248,4 +248,13 @@ $EndComp
 Connection ~ 5600 5700
 Wire Wire Line
 	5600 5700 5150 5700
+$Sheet
+S 1550 3100 1050 600 
+U 6046CE36
+F0 "StepUpStepDown" 50
+F1 "StepUpStepDown.sch" 50
+F2 "-5VOut" I R 2600 3150 50 
+F3 "Vin3.3" I R 2600 3300 50 
+F4 "+5Vout" I R 2600 3450 50 
+$EndSheet
 $EndSCHEMATC
