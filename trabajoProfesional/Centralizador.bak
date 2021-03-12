@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:trabajoProfesional-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L trabajoProfesional-rescue:HV7361GA-G-HV7361GA-G IC2
+L HV7361GA-G:HV7361GA-G IC2
 U 1 1 5FFE4A75
 P 3900 2200
 F 0 "IC2" H 4450 2465 50  0000 C CNN
@@ -32,7 +31,7 @@ F 9 "HV7361GA-G" H 4850 1600 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L trabajoProfesional-rescue:UTR-1440K-TT-R-UTR-1440K-TT-R LS1
+L UTR-1440K-TT-R:UTR-1440K-TT-R LS1
 U 1 1 60011CA2
 P 8050 4200
 F 0 "LS1" H 8342 3835 50  0000 C CNN
@@ -51,7 +50,7 @@ F 11 "https://www.mouser.co.uk/ProductDetail/PUI-Audio/UTR-1440K-TT-R?qs=pFWzdYh
 	1    0    0    1   
 $EndComp
 $Comp
-L trabajoProfesional-rescue:1N4150W-E3-08-Diodo1N4150W-e3-08 D8
+L Diodo1N4150W-e3-08:1N4150W-E3-08 D8
 U 1 1 60017B33
 P 5850 1800
 F 0 "D8" V 6196 1670 50  0000 R CNN
@@ -68,7 +67,7 @@ F 9 "1N4150W-E3-08" H 6300 1100 50  0001 L CNN "Manufacturer_Part_Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L trabajoProfesional-rescue:1N4150W-E3-08-Diodo1N4150W-e3-08 D9
+L Diodo1N4150W-e3-08:1N4150W-E3-08 D9
 U 1 1 600182E2
 P 6250 2500
 F 0 "D9" H 6550 2233 50  0000 C CNN
@@ -85,7 +84,7 @@ F 9 "1N4150W-E3-08" H 6700 1800 50  0001 L CNN "Manufacturer_Part_Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L trabajoProfesional-rescue:1N4150W-E3-08-Diodo1N4150W-e3-08 D11
+L Diodo1N4150W-e3-08:1N4150W-E3-08 D11
 U 1 1 60018639
 P 6550 2700
 F 0 "D11" H 6850 2967 50  0000 C CNN
@@ -102,7 +101,7 @@ F 9 "1N4150W-E3-08" H 7000 2000 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L trabajoProfesional-rescue:1N4150W-E3-08-Diodo1N4150W-e3-08 D7
+L Diodo1N4150W-e3-08:1N4150W-E3-08 D7
 U 1 1 60018944
 P 5700 4300
 F 0 "D7" H 6000 4567 50  0000 C CNN
@@ -174,7 +173,7 @@ F 3 "~" H 4950 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L trabajoProfesional-rescue:1N4150W-E3-08-Diodo1N4150W-e3-08 D10
+L Diodo1N4150W-e3-08:1N4150W-E3-08 D10
 U 1 1 6001A4A6
 P 6300 3800
 F 0 "D10" H 6600 3533 50  0000 C CNN
@@ -191,7 +190,7 @@ F 9 "1N4150W-E3-08" H 6750 3100 50  0001 L CNN "Manufacturer_Part_Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L trabajoProfesional-rescue:1N4150W-E3-08-Diodo1N4150W-e3-08 D6
+L Diodo1N4150W-e3-08:1N4150W-E3-08 D6
 U 1 1 6001A808
 P 5450 1200
 F 0 "D6" V 5704 1330 50  0000 L CNN

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:trabajoProfesional-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -630,7 +629,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 2200 5300 2200
 $Comp
-L trabajoProfesional-rescue:BSS84-BSS84 Q1
+L BSS84:BSS84 Q1
 U 1 1 5FB6037E
 P 6900 4600
 F 0 "Q1" H 7330 4654 50  0000 L CNN
