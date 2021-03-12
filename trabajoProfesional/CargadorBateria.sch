@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:trabajoProfesional-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L trabajoProfesional-rescue:TS51231-QFNR-TS51231-QFNR IC1
+L TS51231-QFNR:TS51231-QFNR IC1
 U 1 1 5FFE6889
 P 5400 2900
 F 0 "IC1" H 6644 2846 50  0000 L CNN
